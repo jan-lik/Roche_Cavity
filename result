@@ -238,7 +238,7 @@ for m1_ in m1s:
             #print(_)
             limit = a_
             step = 0.05
-            lobe, xg, yg, zg, l1_ = lobe_(m1_, m2_, float(a_), limit, step)
+            #lobe, xg, yg, zg, l1_ = lobe_(m1_, m2_, float(a_), limit, step)
             #volume = volume_counter(lobe, l1_, limit, step)
             ans[0].append(m1_)
             ans[1].append(m2_)
