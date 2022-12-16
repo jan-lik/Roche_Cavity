@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-from sympy import solve, Symbol
+
 
 def grav_potencial(point_m_vec, m):
     '''считает грав потенциал от массы m в точке, вектор из которой в массу m - point_m_vec'''
